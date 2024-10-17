@@ -1,0 +1,33 @@
+
+
+div {
+    border: 1px solid #000; /* Uniform border for all divs */
+    padding: 10px; /* Padding inside the divs */
+    margin: 10px 0; /* Spacing between divs */
+    background-color: #f9f9f9; /* Light background color for readability */
+}
+
+.font-family {
+    font-style: arial,sans-serif;
+    
+}
+
+.font-size {
+    font-size: 24px; /* Font size for this div */
+    
+}
+
+.font-weight {
+    font-weight: bold; /* Bold font weight */
+    
+}
+
+.font-style {
+    font-style: italic; /* Italic style */
+    
+}
+.font-variant{
+    font-variant: small-caps;
+}
+
+
