@@ -1,0 +1,110 @@
+@media screen and (max-width: 600px) {
+    
+    header nav {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    
+    header nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: -70%;
+        gap: 5px;
+    }
+
+    /* Header title padding and font size adjustments */
+    .header-title {
+        padding: 1em 0;
+    }
+
+    .header-title h1 {
+        font-size: 36px; /* Adjust for mobile readability */
+    }
+
+    .header-title p {
+        font-size: 18px; /* Ensure readability on small screens */
+    }
+
+    /* About Us section: Ensure full width on small screens */
+    .about-us p:nth-child(3) {
+        width: 100%;
+    }
+    
+    /* Team description section: Flex wrapping with spacing */
+    .team-description ul {
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    /* Team description list items: Set width to 50% minus gap */
+    .team-description ul li {
+        width: calc(50% - 30px);
+    }
+
+    /* Team description images: Full width of container with height adjustment */
+    .team-description ul li img {
+        width: 100%;
+        height: 80%;
+    }
+
+    /* Team description paragraph font size adjustment */
+    .team-description ul li p {
+        font-size: 12px;
+    }
+
+    /* "Choose Us" section: Stack items vertically with spacing */
+    .choose-us ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    /* "Choose Us" list items: Adjust width for mobile */
+    .choose-us ul li {
+        width: 60%;
+    }
+
+    /* Blog news section: Stack items vertically with proper spacing */
+    .blog-news ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    /* Blog news item: Adjust width and set a minimum width */
+    .blog-news ul .item {
+        width: 70%;
+        min-width: 340px;
+    }
+
+    /* Blog news item section width */
+    .blog-news ul .item section {
+        width: 50%;
+    }
+
+    /* Blog news content padding and font size adjustments */
+    .blog-news .content {
+        padding: 0 1rem;
+    }
+
+    .blog-news .content h4 {
+        font-size: 14px;
+    }
+
+    .blog-news .content p {
+        font-size: 12px;
+    }
+
+    /* Avatar in blog news: Ensure width is inherited */
+    .blog-news ul .item .avatar {
+        width: inherit;
+    }
+
+    /* Avatar images: Full width and height */
+    .blog-news ul .item .avatar img {
+        width: 100%;
+        height: 100%;
+    }
+}

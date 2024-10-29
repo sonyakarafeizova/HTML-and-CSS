@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.home-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.home-hero {
+    width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:rgb(180 239 241);
+    padding: 70px 20px 70px 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.home-container1 {
+    max-width: 450px;
+}
+
+.home-text {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.home-text1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.home-btn-group {
+    display: flex;
+    gap: 10px;
+    padding-top: 20px;
+}
+
+.home-button, .home-button1 {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.home-button {
+    
+    background-color: #12942e;
+    color: rgb(8, 8, 8);
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.home-button:hover {
+    background-color: #333;
+    color: white;
+    border: 5px  black;
+}
+
+.home-button1 {
+    background-color: white;
+    color:black;
+    border: 2px  #fafafa;
+    border-radius:5p;
+}
+
+.home-button1:hover {
+    background-color: #333;
+    color: white;
+    border-color: #333;
+    border-radius: 5px;;
+}
+
+.home-image {
+    width: 400px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    object-fit: cover;
+}
